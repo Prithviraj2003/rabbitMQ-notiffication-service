@@ -19,7 +19,7 @@ const connectRabbitMQ = () => {
         });
         channel = ch;
         resolve();
-        sendNotification({UserId:"65b64bca757962495ee003de",title:"test",body:"order recived"})
+        sendNotification({UserId:"65b64bca757962495ee003de",title:"test",body:"Test Message"})
       });
     });
   });
